@@ -1,0 +1,29 @@
+
+{
+    "name": "bot",
+    "description": " Bot.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot"
+    ],
+    "repository": "https://github.com/hyper-ub/AnonimasuRobot",
+    "website": "https://github.com/hyper-ub/AnonimasuRobot",
+    "success_url": "https://github.com/hyper-ub/AnonimasuRobot/edit/master/app.json",
+    "env": {
+        "token": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "group_id": {
+            "description": "group id.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
